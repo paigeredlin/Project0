@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+      <link rel="stylesheet" href="style.css">
+      <title>Google Advanced Search</title>
+
+      <style>
+        #header{
+          background-color: #f2f2f2;
+        }
+        h3{
+          color: Red;
+          text-align: left;
+          font-size: 20px;
+          font-family: sans-serif;
+          margin-left: 10px;
+        }
+
+        p{
+          margin-left: 10px;
+          text-align: left;
+          font-size: 13px;
+          font-family: sans-serif;
+        }
+
+        #pagelink{
+          text-align: right;
+          font-size: 10px;
+        }
+
+        #Logo{
+          text-align: left;
+          margin-left: 5px;
+        }
+
+        input[type='text'] {
+          width: 200px;
+          height: 22px;
+          margin: 5px;
+          border-radius: 1px;
+        }
+
+        input[type='submit'] {
+          margin: 5px 3px;
+          height: 32px;
+          width: 140px;
+          border-radius: 3px;
+          color: white;
+          border: none;
+          background-color: #2E8CE7;
+          font-weight: bold;
+        }
+
+        input[type='submit']:hover {
+          color: white;
+          border: 1px solid #c6c6c6;
+          background-color: #2C84DA;
+        }
+
+      </style>
+    </head>
+
+    <body>
+
+    <div id="header">
+      <div id="pagelink">
+        <a href="index.html">Google Search</a>
+      </div>
+
+      <div id="Logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/736px-Google_2015_logo.svg.png" width="85" title="Google">
+      </div>
+    </div>
+
+      <h3>Advanced Search</h3>
+
+      <p> Find pages with... </p>
+      <p> all these words: </p>
+      <p> this exact word or phrase: </p>
+      <p> any of these words: </p>
+      <p> none of these words: </p>
+
+        <form action="https://www.google.com/imghp?hl=en&tab=wi&authuser=0&ogbl">
+            <input type="text" name="q">
+            <input type="submit" value="Advanced Search">
+        </form>
+
+    </body>
+</html>
